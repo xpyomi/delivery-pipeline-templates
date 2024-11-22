@@ -144,7 +144,7 @@ pipeline {
                 // When Snyk reports findings it uses the filename as the "target" in the dashboard
                 def args = [
                   "--severity-threshold=${params.vulnerability_severity_threshold}",
-                  "--target-reference=${params.git_branch}"
+                  // "--target-reference=${params.git_branch}"
                 ]
                 // Custom project names conflicts with --all-projects and --maven-aggregate-projects remove the project name field if using these flags
                 if (params.snyk_project_name) {
