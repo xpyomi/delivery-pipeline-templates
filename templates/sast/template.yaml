@@ -1,5 +1,5 @@
 version: 1
-name: SAST Pipeline
+name: SAST Pipeline Test
 displayName: SAST Pipeline
 description: Pipeline for scanning a source code for potential security and other defects.
 type: pipeline-template

@@ -1,5 +1,5 @@
 version: 1
-name: GitOps Deployment
+name: GitOps Deployment Test
 displayName: Deployment Pipeline - Kustomize Update
 description: Pipeline for updating Kubernetes manifests using Kustomize.
 type: pipeline-template
