@@ -53,6 +53,10 @@ parameters:
     description: "The relative path of the source code to scan for Snyk."
     type: string
     defaultValue: "."
+  - name: default_snyk_target_reference
+    displayName: Snyk Target Reference
+    # description: "A JSON serialized array of additional arguments to pass to the Snyk."
+    type: string
   - name: default_snyk_additional_arguments
     displayName: Snyk Additional Arguments
     description: "A JSON serialized array of additional arguments to pass to the Snyk."
